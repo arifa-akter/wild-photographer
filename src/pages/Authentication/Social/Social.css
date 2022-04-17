@@ -1,0 +1,40 @@
+.social-btn{
+    background: black;
+    border:none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 19px;
+    color:white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.icon{
+  padding-right: 15px;
+}
+
+.or-style{
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.or-style::after {
+    position: absolute;
+    content: '';
+    top: 13px;
+    left: 0;
+    background:#F39C12;
+    height: 2px;
+    width: 45%;
+}
+.or-style::before {
+    position: absolute;
+    content: '';
+    top: 13px;
+    right: 0;
+    background: #F39C12;
+    height: 2px;
+    width: 45%;
+}

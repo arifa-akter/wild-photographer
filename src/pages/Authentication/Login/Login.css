@@ -1,0 +1,73 @@
+.form-main{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.form-bg{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.795), rgba(243, 157, 18, 0.815));
+}
+.form-style{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.form-info{
+    background: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.main-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.form-text{
+    font-size:40px;
+    font-weight: 700;
+    color:black;
+    margin: 30px 0 50px 0;
+}
+.from-item{
+    margin-bottom: 30px;
+}
+label{
+   display: block;
+   font-size: 19px;
+   font-weight: 500;
+   margin-bottom:9px;
+   color:black;
+}
+
+input{
+    font-size: 17px;
+    border-radius: 10px;
+    border: 2px solid black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.create-account{
+    color:black;
+}
+.create-account:hover{
+  color:#F39C12;
+}
+.login-btn{
+    margin-bottom: 0;
+}
+.social-btn{
+    border:none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color:#ffff;
+    background: black;
+}

@@ -18,7 +18,7 @@ const Banner = () => {
     <Carousel.Caption>
  <div className="row">
      <div className="col-lg-6 col-12 mx-auto banner-text text">
-     <h3>HOTEL TEN STAR</h3>
+     <h3>WILD PHOTOGRAPHER</h3>
       <p>This hotel make you comfort as like your home .
           mane place and it help to feel refresh 
       </p>
@@ -37,7 +37,7 @@ const Banner = () => {
     <Carousel.Caption>
     <div className="row">
      <div className="col-lg-6 col-12 mx-auto banner-text">
-     <h3>COMFORT FOR FAMILY</h3>
+     <h3>ANIMAL NATURE</h3>
       <p>your family feel more comfort in our hotel it save for 
         your family . there space for child
       </p>
@@ -56,7 +56,7 @@ const Banner = () => {
     <Carousel.Caption>
     <div className="row">
      <div className="col-lg-6 col-12 mx-auto banner-text text ">
-     <h3>LESS PRICE </h3>
+     <h3>PHOTO EXPLORE</h3>
       <p>you can stay in our hotel in more and more less price 
           you stay more time in your less price
       </p>
