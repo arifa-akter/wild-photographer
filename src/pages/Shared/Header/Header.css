@@ -33,7 +33,7 @@
 .menu::after {
     position: absolute;
     content: '';
-    top: 47px;
+    top: 37px;
     left: 0;
     height:0;
     width:0;
@@ -49,3 +49,29 @@
     -ms-transition: all linear 0.4s;
     -o-transition: all linear 0.4s;
 }
+.login-signUp{
+    padding: 10px 0 10px 0;
+    background:white;
+}
+.logo-image{
+  height: 30px;
+}
+
+.logo-image img{
+    height:100%;
+}
+.link-login{
+    color:black;
+    padding-right:10px;
+    text-decoration: none;
+}
+.link-image {
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
