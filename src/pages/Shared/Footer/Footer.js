@@ -1,6 +1,8 @@
 import React from 'react';
 import './Footer.css'
 const Footer = () => {
+    const today = new Date()
+    const year = today.getFullYear()
     return (
      <section className="footer-section">
         <div className="container">
@@ -43,7 +45,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col-12 d-flex justify-content-center align-items-center">
                     <div className="copy">
-                        <p>&copy;<span>CopyRight</span></p>
+                        <p><span>Copyright</span>&copy;<span>/{year}</span></p>
                     </div>
                 </div>
             </div>
