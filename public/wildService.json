@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Make Document",
+      "detail": "you can hire me for your wild photography , you can make document very cheap price ,I take many wild photo in many document",
+      "price": 10,
+      "image": "https://i.ibb.co/CPbKJnk/document.jpg"
+    },
+    {
+      "id": 2,
+      "name": "package of Duration",
+      "detail": "you can hire me for your project by package facility for 3 month duration.and i also travel many for wild photography",
+      "price": 300,
+      "image": "https://i.ibb.co/PznW6Dv/tour-pakage.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Wild Animal kingdom",
+      "detail": "This book written by me . this book write by my photography knowledge .this book help you handle a nature of animals ",
+      "price": 200,
+      "image": "https://i.ibb.co/SsF7gt0/book-6.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Ultimate Guide to Canon EOS R6 (and R5)",
+      "detail": "Master the menu options of your Canon mirrorless apart from customising it as per your requirement",
+      "price": 700,
+      "image": "https://i.ibb.co/5jWtNnJ/course-2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Ultimate Guide to Sony Alpha 6600",
+      "detail": "This course explains how to get high impact images of having a nice bokeh to your image with whatever equipment you have. This course is available only as a part of the Sony / Canon / Nikon",
+      "price": 600,
+      "image": "https://i.ibb.co/6wvs541/course-3.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ultimate Field Guide to Wildlife Photography",
+      "detail": "The most comprehensive online photography course on wildlife photography. This is the only course you need to complete, to learn in-depth all facets of wildlife photography.",
+      "price": 500,
+      "image": "https://i.ibb.co/3ckgw7v/course-4.jpg"
+    }
+  ]

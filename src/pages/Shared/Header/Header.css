@@ -42,7 +42,7 @@
 .menu:hover.menu::after {
     height: 3px;
     width:49px ;
-    background:#F39C12 ;
+    background:#F39C12;
     transition: all linear 0.4s;
     -webkit-transition: all linear 0.4s;
     -moz-transition: all linear 0.4s;
