@@ -9,22 +9,22 @@ const Header = () => {
         <section className='nav-style'>
         <Navbar collapseOnSelect expand="lg"  variant="dark">
           <Container>
-          <Navbar.Brand as={Link} to="/home">
+          <Navbar.Brand as={Link} to="">
               <img style={{width:'50px', height:'50px'}} src={logo} alt="" />
               <span className="menu-title">TEN STAR HOTEL </span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/home"><span className="menu">Home</span></Nav.Link>
-              <Nav.Link as={Link} to="/about"><span className="menu">About</span></Nav.Link>
+              <Nav.Link as={Link} to=""><span className="menu">Home</span></Nav.Link>
+              <Nav.Link as={Link} to=""><span className="menu">About</span></Nav.Link>
         
               <Nav.Link href="#deets"><span className="menu">Service</span></Nav.Link>
               <Nav.Link href="#deets"><span className="menu">Gallery</span></Nav.Link>
-              <Nav.Link as={Link} to="/roomDetail/home#rooms" href="home#rooms" >
+              <Nav.Link as={Link} to="" href="home#rooms" >
               <span className="menu">Blogs</span>
               </Nav.Link>
-              <Nav.Link as={Link} to="/login">
+              <Nav.Link as={Link} to="">
               <span className="menu">Login</span>
               </Nav.Link>
             </Nav>

@@ -1,7 +1,8 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home/Home/Home';
 import Header from './pages/Shared/Header/Header';
+import Footer from './pages/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
       </Routes>
-     
+    <Footer></Footer>
     </div>
   );
 }
