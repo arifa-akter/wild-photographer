@@ -14,10 +14,9 @@ const Service = ({photoService}) => {
                     <h2><span>price:</span> $ {price}</h2>
                 </div>
                 <div>
-                 <button className="checkout-btn">CheckOut</button>
+                 <button className="checkout-btn">Buy Now</button>
             </div>
             </div>
-       
         </div>
     );
 };
