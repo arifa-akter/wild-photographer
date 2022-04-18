@@ -6,7 +6,7 @@ const Services = () => {
    const [photographyService] = useServices()
    console.log(photographyService)
     return (
-       <section className='services'>
+       <section id="service" className='services'>
          <div className="container">
          <h1 className='text-center service-header'>SERVICES</h1>
          <div className="row">
