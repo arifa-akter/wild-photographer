@@ -1,8 +1,8 @@
-# Wild photographer
+# AZ Wild photographer
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## wild photographer information
+## AZ wild photographer information
 <ul>
 <li>there use firebase authentication</li>
 <li>login and sign up with google and github email and password</li>
