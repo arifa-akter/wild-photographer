@@ -13,7 +13,7 @@ const Gallery = () => {
     <div className="container">
     <div className="row">
         <h1 className='text-center service-header'>GALLERY</h1>
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-lg-4 mt-2">
                 <div className="gal">
                     <div className="gal-img">
                     <img src={gallary1} alt="" />
@@ -43,7 +43,7 @@ const Gallery = () => {
                 </div>      
             </div>
             {/* image-2 */}
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-lg-4 mt-2 ">
             <div className="gal">
                     <div className="gal-img">
                     <img src={gallary2} alt="" />
@@ -73,7 +73,7 @@ const Gallery = () => {
                 </div>
             </div>
             {/* image-3 */}
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-lg-4 mt-2 ">
             <div className="gal">
                     <div className="gal-img">
                     <img src={gallary3} alt="" />
@@ -105,9 +105,9 @@ const Gallery = () => {
            
         </div>
 
-        <div className="row mt-4">
-            <div className="col-12 col-lg-4">
-                <div className="gal">
+        <div className="row">
+            <div className="col-12 mt-2 col-lg-4">
+                <div className="gal ">
                     <div className="gal-img">
                     <img src={gallery4} alt="" />
                     </div>
@@ -136,7 +136,7 @@ const Gallery = () => {
                 </div>      
             </div>
             {/* image-2 */}
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-lg-4 mt-2 ">
             <div className="gal">
                     <div className="gal-img">
                     <img src={gallery5} alt="" />
@@ -166,7 +166,7 @@ const Gallery = () => {
                 </div>
             </div>
             {/* image-3 */}
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-lg-4 mt-2 ">
             <div className="gal">
                     <div className="gal-img">
                     <img src={gallary6} alt="" />
