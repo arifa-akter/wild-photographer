@@ -9,8 +9,10 @@ const SignUp = () => {
     const emailRef = useRef()
     const passwordRef = useRef()
     const passwordConformRef = useRef()
+    const [agree ,setAgree] = useState(false) 
     const navigate = useNavigate()
-    const [createUserWithEmailAndPassword , user ,loading ,error] = useCreateUserWithEmailAndPassword(auth)
+    const [createUserWithEmailAndPassword , user ,loading ,error] = 
+    useCreateUserWithEmailAndPassword(auth,{sendEmailVerification:true})
     const [error2 ,setError2] =useState()
     const handleSubmit =(event)=>{
         event.preventDefault()
@@ -23,7 +25,11 @@ const SignUp = () => {
         if(password.length<6){
             return setError2('please character up to 6 digit')
         }
+        if(agree){
         createUserWithEmailAndPassword(email, password )
+
+        }
+     
         console.log(email, password)
     }
     const navigateLogin =()=>{
@@ -72,8 +78,13 @@ const SignUp = () => {
                               loading && <p>loading.....</p>
                              }
                            </div>
+                           <input onClick={()=>setAgree(!agree) } type="checkbox" name="trams" id="trams" />
+                           <span className={`ps-2 ${agree ?'': 'text-danger'}`}> expect wild photographer trams and condition?</span>
                            <div className='from-item'>
-                            <button type="submit" className='w-100 h-100 py-2 social-btn login-btn'>Sign up</button>
+                            <button
+                             disabled={!agree} 
+                            type="submit" className='w-100 h-100 py-2 social-btn login-btn'
+                            >Sign up</button>
                           </div>
                           <span>Already have an account? </span>
                           <span className='create-account sm-font' onClick={navigateLogin}> Login </span>
