@@ -3,13 +3,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## wild photographer information
-=>there use firebase authentication
+=>there use firebase authentication<br/>
 =>login and sign up with google and github email and password  <br/>
 => error handle loading spinner and also use toast <br/> 
 =>use protected route <br/>
 =>there header section service section about section blogs section  gallery section
 and use protected check out section<br/>
-
+# technology 
+<ul>
+<li>bootstrap framework</li>
+<li>react firebase hook</li>
+<li>router</li>
+<li>react toastify</li>
+</ul>
 ### `npm start`
 
 Runs the app in the development mode.\
