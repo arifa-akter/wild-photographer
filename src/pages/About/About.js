@@ -10,7 +10,8 @@ const About = () => {
                     <div className='text-center'>
                       <p>Within next 5 month want to get a good job which will help to increase experience
                           communication skills .side by side i will gain knowledge on
-                          various topic related to cse so that i can develop a  successful career in the arena of developing site </p>
+                          various topic related to cse so that i can develop a  successful career in the arena of developing site.
+                          i also main focus on my developing and design site . and next five month hard work in website development </p>
                     </div>
                  </div>
 
