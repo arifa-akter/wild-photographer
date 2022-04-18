@@ -1,6 +1,8 @@
 import React from 'react';
+// import { useAuthState } from 'react-firebase-hooks/auth';
 import './Blogs.css'
 const Blogs = () => {
+    // const [user]=useAuthState()
     return (
      <section className="blogs">
          <div className="container">

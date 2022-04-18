@@ -52,6 +52,7 @@ input{
 }
 .create-account{
     color:black;
+    cursor: pointer;
 }
 .create-account:hover{
   color:#F39C12;

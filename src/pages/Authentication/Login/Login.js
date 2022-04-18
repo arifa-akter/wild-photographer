@@ -1,8 +1,28 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useRef } from 'react';
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import {  useNavigate } from 'react-router-dom';
+import auth from '../../../firebase.init';
 import Social from '../Social/Social';
 import './Login.css'
 const Login = () => {
+    const emailRef = useRef('')
+    const passwordRef = useRef('')
+    const navigate = useNavigate()
+    const [signInWithEmailAndPassword ,user,loading, error]= useSignInWithEmailAndPassword(auth)
+    const handleLogin =(event)=>{
+      event.preventDefault()
+      const email = emailRef.current.value
+      const password =passwordRef.current.value
+      signInWithEmailAndPassword(email,password)
+    }
+    const navigateRegister =()=>{
+       navigate('/signup')
+     
+    }
+    if(user){
+        navigate('/')
+     }
+
     return (
         <section className='container form-main'>
         <div className="row d-flex justify-content-center d-sm-flex justify-content-sm-center  align-items-center align-items-sm-center">
@@ -10,29 +30,33 @@ const Login = () => {
               <div className="row form-style">
                   <div className="col-lg-7 col-10 form-info">
                       <h2 className='text-center form-text'>Login</h2>
-                      <form  action="">
+                      <form onSubmit={handleLogin} action="">
                  <div className="main-form row">
                     <div className='col-12 col-lg-10'>
                         <div className='from-item'>
                             <label htmlFor="email">
                                 Email
                              </label>
-                             <input  type= "email" className=' w-100 h-100 py-2'  name="email" id="" required />
+                             <input ref={emailRef} type= "email" className=' w-100 h-100 py-2'  name="email" id="" required />
                              </div>
                              <div className='from-item'>
                              <label htmlFor="password">
                                 Password
                              </label>
-                            <input  type="password" className='w-100 h-100 py-2' name="password" id="" required />
+                            <input ref={passwordRef} type="password" className='w-100 h-100 py-2' name="password" id="" required />
+                            <p>{error?.message}</p>
+                             {
+                              loading && <p>loading.....</p>
+                             }
                            </div>
                            <div className='from-item'>
                          
                             <button type="submit" className='w-100 h-100 py-2 social-btn login-btn'>Login</button>
                           </div>
                           <span>create a new Account? </span>
-                          <Link className='create-account sm-font' to="/signup">
-                          <span> create account </span>
-                          </Link>
+                          
+                          <span className='create-account sm-font' onClick={navigateRegister}> create account </span>
+                        
                           <Social></Social>
                       </div>
                    </div>
