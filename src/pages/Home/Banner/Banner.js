@@ -19,8 +19,8 @@ const Banner = () => {
  <div className="row">
      <div className="col-lg-6 col-12 mx-auto banner-text text">
      <h3>WILD PHOTOGRAPHER</h3>
-      <p>This hotel make you comfort as like your home .
-          mane place and it help to feel refresh 
+      <p>achieve some perfection your self so that you may fall inti sorrow
+        by seeing the perfection in other
       </p>
      </div>
  </div>
@@ -38,8 +38,8 @@ const Banner = () => {
     <div className="row">
      <div className="col-lg-6 col-12 mx-auto banner-text">
      <h3>ANIMAL NATURE</h3>
-      <p>your family feel more comfort in our hotel it save for 
-        your family . there space for child
+      <p>photography is love of affair with life . our life is just not enough to cherish
+        beauty of wild life
       </p>
      </div>
    </div>
@@ -57,8 +57,8 @@ const Banner = () => {
     <div className="row">
      <div className="col-lg-6 col-12 mx-auto banner-text text ">
      <h3>PHOTO EXPLORE</h3>
-      <p>you can stay in our hotel in more and more less price 
-          you stay more time in your less price
+      <p>all reall wanted to do was wildlife  photography
+        wild life photographer feel wild at home and home at wild
       </p>
      </div>
    </div>
