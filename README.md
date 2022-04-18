@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Wild photographer
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+## wild photographer information
+=>there use firebase authentication
+=>login and sign up with google and github email and password  <br/>
+=> error handle loading spinner and also use toast <br/> 
+=>use protected route <br/>
+=>there header section service section about section blogs section  gallery section
+and use protected check out section<br/>
 
 ### `npm start`
 
